@@ -3,11 +3,11 @@
 int main()
 {
 	int number;
-	printf("Enter a number \n"); 
+	printf("Enter a number \n");  //66
 	scanf("%d",&number);
-	switch(number>=50 && number<=100){
-		case 1:{
-			printf("Your number lies between 50 and 100 "); 
+	switch(number>=50 && number<=100){ //66>=50 && 66<=100
+		case true:{
+			printf("Your number lies between 50 and 100 "); //ya true ha or print ho ga
 			break;
 		}
 		default :{

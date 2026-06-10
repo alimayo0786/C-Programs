@@ -3,13 +3,13 @@
 int main()
 {
 	int marks,age;
-	printf("Enter your marks \n"); 
+	printf("Enter your marks \n"); //65
 	scanf("%d",&marks);
-	printf("Enter your age \n"); 
+	printf("Enter your age \n"); //22
 	scanf("%d",&age);
-	switch(marks>60 && age<25){
-		case 1:{
-			printf("Student can take admission");
+	switch(marks>40 && age<25){ //65>40 && 22<25
+		case true:{
+			printf("Student can take admission"); //ya true ha or print ho ga
 			break;
 		}
 		default :{

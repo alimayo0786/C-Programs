@@ -5,9 +5,9 @@ int main()
     float amount;
 	printf("Enter your amount \n"); //6000
 	scanf("%f",&amount);
-	switch(amount>5000){ //6000>5000 ya true ha to 20% discount mila ga
-    case 1:{
-    	printf("You will give 20 percent discount ");
+	switch(amount>5000){ //6000>5000
+    case true:{
+    	printf("You will give 20 percent discount "); //ya true ha or print ho ga
 		break;
 	}
 	default:{

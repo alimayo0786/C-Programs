@@ -8,8 +8,8 @@ int main()
 	printf("Enter your withdrawal_amount \n"); //5000
 	scanf("%d",&withdrawal_amount);
 	switch(withdrawal_amount%500==0){  //5000%500==0
-	case 1:{
-		printf("Withdrawal Approved");
+	case true:{
+		printf("Withdrawal Approved"); //ya true ha or print ho ga
 		break;
 	}
     default :{
