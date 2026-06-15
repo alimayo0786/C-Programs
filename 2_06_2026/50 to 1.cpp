@@ -1,11 +1,14 @@
 #include<stdio.h>
 #include<conio.h>
-int main()
-{
-	
-int i;
+void print_counting(int i){
 	for(i=50;i>=1;i--){
 		printf("%d\n", i);
 	}
+}
+int main()
+{
+	
+	int i;
+	print_counting(i);
 
 }

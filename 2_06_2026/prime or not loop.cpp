@@ -1,14 +1,9 @@
 #include<stdio.h>
 #include<conio.h>
-int main()
-{
-	int i,j,end,num,check_prime=0;
-	printf("Enter a number \n");
-	scanf("%d",&num);
-	printf("enter ending number \n");
-	scanf("%d",&end);
-	for(i=num;i<=end;i++){
-		for(j=num;j<=i;j++){
+void prime_number(int starting_number , int ending_number ){
+	int i , j , num , end , check_prime=0;
+	for(i=starting_number;i<=ending_number;i++){
+		for(j=starting_number;j<=i;j++){
 			if(i%j==0){
 			 	check_prime++;
 			}
@@ -25,4 +20,13 @@ int main()
 		}
 			check_prime=0;
 	}
+}
+int main()
+{
+	int end , num ;
+	printf("Enter a number \n");
+	scanf("%d",&num);
+	printf("enter ending number \n");
+	scanf("%d",&end);
+	prime_number( num , end);	
 }

@@ -11,7 +11,7 @@ int main()
 	num[5]=10;
 	if(num[0]==num[1])
 	 printf("duplicate number is :  %d\n",num[1]);
-	 else if(num[0]==num[2])
+	else if(num[0]==num[2])
 	 printf("duplicate number is :  %d\n",num[2]);
 	else if(num[0]==num[3])
 	 printf("duplicate number is :  %d\n",num[3]);  
@@ -22,7 +22,7 @@ int main()
   {
   	if(num[1]==num[2])
 	 printf("duplicate number is :  %d\n",num[2]);
-	 else if(num[1]==num[3])
+	else if(num[1]==num[3])
 	 printf("duplicate number is :  %d\n",num[3]);
 	else if(num[1]==num[4])
 	 printf("duplicate number is :  %d\n",num[4]);  
